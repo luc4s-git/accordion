@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FaPlus } from 'react-icons/fa6';
 import data from './data';
 import SingleQuestion from './components/SingleQuestion';
 
