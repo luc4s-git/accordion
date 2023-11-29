@@ -19,7 +19,7 @@ export default function SingleQuestion({ questions }) {
             {showInfo ? <FaMinus /> : <FaPlus />}
           </button>
         </header>
-        <p>{showInfo && info}</p>
+        {showInfo && <p>{info}</p>}
       </div>
     );
   });
