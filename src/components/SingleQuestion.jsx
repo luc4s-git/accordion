@@ -4,13 +4,15 @@ export default function SingleQuestion({ questions }) {
   const questionsMapping = questions.map((question) => {
     const { id, title, info } = question;
     return (
-      <header key={id}>
-        <h5>{title}</h5>
-        <button className="question-btn">
-          <FaPlus></FaPlus>
-        </button>
-      </header>
+      <div className="question" key={id}>
+        <header>
+          <h5>{title}</h5>
+          <button className="question-btn">
+            <FaPlus></FaPlus>
+          </button>
+        </header>
+      </div>
     );
   });
-  return <div className="question">{questionsMapping}</div>;
+  return <>{questionsMapping}</>;
 }
