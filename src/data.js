@@ -6,12 +6,12 @@ const questions = [
   },
   {
     id: 2,
-    title: 'How do I change my My Page password?',
+    title: 'How do I change my "My Page" password?',
     info: 'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
   },
   {
     id: 3,
-    title: 'What is BankID?',
+    title: 'What is "BankID"?',
     info: 'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
   },
   {
