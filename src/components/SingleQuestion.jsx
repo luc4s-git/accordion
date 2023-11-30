@@ -23,5 +23,6 @@ export default function SingleQuestion({ questions }) {
       </div>
     );
   });
+
   return <>{questionsMapping}</>;
 }
